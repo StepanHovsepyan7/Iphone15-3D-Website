@@ -1,4 +1,5 @@
 import './App.css'
+import Featues from './components/Featues'
 import Hero from './components/Hero'
 import Highlights from './components/Highlights'
 import { Model } from './components/Model'
@@ -13,6 +14,7 @@ const App = () => {
         <Hero/>
         <Highlights/>
         <Model/>
+        <Featues/>
       </main>
     </>
   )
