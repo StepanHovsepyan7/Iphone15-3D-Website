@@ -6,7 +6,6 @@ import { animateWithGsap } from '../utils/animations'
 
 const HowItWorks = () => {
 
-
     const videoRef = useRef()
 
     useGSAP(()=>{
@@ -19,7 +18,7 @@ const HowItWorks = () => {
             opacity: 0,
             scale: 2,
             duration: 2,
-            ease: 'power2.out'
+            ease: 'power2.Inout'
         })
 
 
