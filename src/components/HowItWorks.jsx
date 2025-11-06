@@ -27,7 +27,10 @@ const HowItWorks = () => {
             opacity:1,
             y:0,
             duration:1,
-            ease: 'power2.inOut'
+            ease: 'power2.inOut',
+            scrollTrigger:{
+              once: true,
+            }
         })
     },[])
 
