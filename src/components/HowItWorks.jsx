@@ -13,6 +13,7 @@ const HowItWorks = () => {
             scrollTrigger:{
                 trigger: '#chip',
                 start: '20% bottom',
+                invalidateOnRefresh: true,
             },
             
             opacity: 0,
